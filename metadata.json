@@ -1,0 +1,6 @@
+{
+  "name": "Local Business Web Design Agency",
+  "description": "Modern, premium agency website designed to pitch and convert local businesses like restaurants, cafes, salons, and gyms into clients with WhatsApp ordering and digital presence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
