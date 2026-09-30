@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
             </p>
 
             <div className="pt-2 text-xs text-neutral-400">
-              Serving local businesses in <span className="text-neutral-200">{agencyInfo.city}</span> & surrounding regions.
+              Serving local businesses & surrounding regions.
             </div>
 
             {/* Quick Contact Badges */}

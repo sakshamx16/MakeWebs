@@ -4,7 +4,6 @@ import {
   Phone,
   Mail,
   Instagram,
-  MapPin,
   Send,
   CheckCircle2,
   Clock,
@@ -232,19 +231,6 @@ export const ContactSection: React.FC = () => {
                     </div>
                   </a>
                 ) : null}
-
-                {/* Store visits */}
-                <div className="flex items-start gap-3.5 p-3 rounded-lg bg-neutral-900/40 border border-neutral-800/60">
-                  <div className="w-9 h-9 rounded-lg bg-neutral-800 border border-neutral-700 flex items-center justify-center text-neutral-300 shrink-0 mt-0.5">
-                    <MapPin className="w-4 h-4" />
-                  </div>
-                  <div>
-                    <div className="text-[11px] text-neutral-400">In-Person Meeting</div>
-                    <div className="text-xs text-neutral-300">
-                      {agencyInfo.address}
-                    </div>
-                  </div>
-                </div>
               </div>
 
               {/* Working hours indicator */}

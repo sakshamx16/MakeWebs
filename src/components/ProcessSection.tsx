@@ -70,7 +70,7 @@ export const ProcessSection: React.FC = () => {
               Ready to start Step 1? It only takes a quick 5-minute chat.
             </span>
             <a
-              href={getWhatsAppUrl("Hi! I would like to start Step 1 and tell you about my business for a website.")}
+              href={getWhatsAppUrl("Hi! I would like to start Step 1 and discuss a website for my business.")}
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-emerald-400 hover:bg-emerald-300 active:bg-emerald-500 text-neutral-950 font-semibold text-xs rounded-md transition-colors whitespace-nowrap"

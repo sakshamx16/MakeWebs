@@ -61,11 +61,11 @@ export const DirectOrderingSection: React.FC = () => {
       .filter(Boolean)
       .join('\n');
 
-    return `Hi, I would like to place an order via your website:\n\n${lines}\n\n*Total Amount:* ₹${totalAmount}\n*Order Type:* Takeaway / Delivery\n*Customer Name:* [Customer Name]`;
+    return `*Sample Order Details:*\n${lines}\n\n*Total Amount:* ₹${totalAmount}\n*Order Type:* Takeaway / Delivery`;
   };
 
   const simulatedWhatsAppUrl = getWhatsAppUrl(
-    `Hi! I tested your WhatsApp ordering demo on your agency website and I want to set this up for my restaurant/store:\n\n${getSimulatedOrderMessage()}`
+    `Hi! I tested your WhatsApp ordering demo and want to set up direct ordering for my restaurant/store.\n\n${getSimulatedOrderMessage()}`
   );
 
   return (

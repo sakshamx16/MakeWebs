@@ -116,7 +116,7 @@ export const PricingSection: React.FC = () => {
             </div>
           </div>
           <a
-            href={getWhatsAppUrl("Hi, I need a custom website quote for my business. Let's discuss.")}
+            href={getWhatsAppUrl("Hi! I need a custom website quote for my business. Let's discuss.")}
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-neutral-800 hover:bg-neutral-700 text-white font-medium text-xs rounded-md transition-colors whitespace-nowrap"

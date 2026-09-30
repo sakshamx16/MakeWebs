@@ -23,12 +23,9 @@
 
 // Import generated preview photography assets
 import heroMockupImg from '../assets/images/hero_agency_preview_1790712381913.jpg';
-import urbanBitesImg from '../assets/images/demo_urban_bites_1790712394617.jpg';
-import sweetCravingsImg from '../assets/images/demo_sweet_cravings_1790712405536.jpg';
-import fitzoneGymImg from '../assets/images/demo_fitzone_gym_1790712415735.jpg';
-import styleSalonImg from '../assets/images/demo_style_salon_1790712426347.jpg';
-import brightAcademyImg from '../assets/images/demo_bright_academy_1790712439676.jpg';
-import royalSweetsImg from '../assets/images/demo_royal_sweets_1790712450431.jpg';
+import urbanBitesHeroImg from '../assets/images/urban_bites_hero_1790773482644.jpg';
+import royalSweetsHeroImg from '../assets/images/royal_sweets_hero_1790773496646.jpg';
+import veloraStudioHeroImg from '../assets/images/velora_studio_hero_1790773508755.jpg';
 
 export interface AgencyInfo {
   name: string;
@@ -128,7 +125,7 @@ export const agencyInfo: AgencyInfo = {
   // Kept blank as requested; add your URL when ready (e.g. "https://instagram.com/makewebs")
   instagramUrl: "",
   
-  address: "Main Market Road, City Center (We visit your business directly)",
+  address: "Serving local businesses & surrounding regions",
   
   defaultWhatsAppMessage:
     "Hi MakeWebs, I am interested in getting a website for my business. I would like to see a demo.",
@@ -289,10 +286,10 @@ export const portfolioProjects: PortfolioProject[] = [
   {
     id: "urban-bites",
     name: "Urban Bites",
-    category: "Restaurant & Bistro",
+    category: "Restaurant & Café",
     categorySlug: "restaurant",
     shortDesc:
-      "Modern bistro website featuring an interactive digital food menu, table reservation inquiry, and direct WhatsApp takeaway ordering.",
+      "Modern casual restaurant & café featuring an interactive digital food menu, table reservations, and 1-tap WhatsApp takeaway ordering.",
     fullDesc:
       "A rich dining concept built for upscale casual eateries. Customers can browse chef specials, tap individual menu items, and send an organized order list directly to the restaurant's kitchen WhatsApp number.",
     features: [
@@ -301,98 +298,18 @@ export const portfolioProjects: PortfolioProject[] = [
       "Kitchen hours & weekend brunch timings",
       "Google Maps turn-by-turn directions",
     ],
-    image: urbanBitesImg,
+    image: urbanBitesHeroImg,
     isDemo: true,
     whatsappDemoMessage:
-      "Hi! I liked the Urban Bites restaurant demo. Can you show me how a website like this would work for my restaurant?",
-  },
-  {
-    id: "sweet-cravings",
-    name: "Sweet Cravings",
-    category: "Artisan Bakery & Pastry Shop",
-    categorySlug: "bakery",
-    shortDesc:
-      "Mouthwatering bakery showcase with custom birthday cake inquiry, pastry flavor catalog, and celebratory gift packaging.",
-    fullDesc:
-      "Designed specifically for bakeries and home bakers. Highlights signature cakes, daily freshly baked breads, and allows clients to send cake flavor & weight inquiries directly via WhatsApp.",
-    features: [
-      "Custom celebration cake gallery",
-      "Daily fresh-bake availability list",
-      "Pre-order for birthdays & anniversaries",
-      "Clear allergy & dietary labels (Eggless/Gluten-Free)",
-    ],
-    image: sweetCravingsImg,
-    isDemo: true,
-    whatsappDemoMessage:
-      "Hi! I saw the Sweet Cravings bakery demo. I run a bakery/cake shop and would love a website demo.",
-  },
-  {
-    id: "fitzone-gym",
-    name: "FitZone",
-    category: "Gym & Fitness Studio",
-    categorySlug: "fitness",
-    shortDesc:
-      "High-energy fitness studio site highlighting membership tiers, trainer credentials, daily batch timings, and 1-day free trial booking.",
-    fullDesc:
-      "Tailored for local gyms, crossfit boxes, and yoga studios. Focuses on converting visitors into physical walk-ins through a frictionless 'Book Free Trial Pass on WhatsApp' CTA.",
-    features: [
-      "Morning & evening batch schedule",
-      "Membership pricing breakdown",
-      "Trainer profile highlights",
-      "1-tap Free Trial pass request on WhatsApp",
-    ],
-    image: fitzoneGymImg,
-    isDemo: true,
-    whatsappDemoMessage:
-      "Hi! I checked out the FitZone gym demo. I want a modern website for my gym/fitness studio.",
-  },
-  {
-    id: "style-studio",
-    name: "Style Studio",
-    category: "Hair Salon & Luxury Spa",
-    categorySlug: "salon",
-    shortDesc:
-      "Minimalist salon website displaying treatment rate cards, bridal packages, hair transformations, and WhatsApp appointment booking.",
-    fullDesc:
-      "Engineered for salons, spas, and beauty parlours looking to reduce no-shows. Clean service price list and instant appointment slot requests sent directly to the reception phone.",
-    features: [
-      "Hair, skin, and spa service price menu",
-      "Bridal & festive styling packages",
-      "Stylist portfolio gallery",
-      "Direct WhatsApp appointment request",
-    ],
-    image: styleSalonImg,
-    isDemo: true,
-    whatsappDemoMessage:
-      "Hi! I loved the Style Studio salon demo. I'd like to discuss a website for my salon/spa.",
-  },
-  {
-    id: "bright-academy",
-    name: "Bright Academy",
-    category: "Coaching & Tuition Institute",
-    categorySlug: "education",
-    shortDesc:
-      "Professional academic website highlighting courses offered, faculty background, batch timings, and WhatsApp admission inquiry.",
-    fullDesc:
-      "Built for local coaching institutes, tutoring centers, and music/dance schools. Builds trust with parents through clear curriculum outlines, batch schedules, and fast WhatsApp admission help.",
-    features: [
-      "Grade & subject-wise course listings",
-      "Batch schedules & fee structure outline",
-      "Direct WhatsApp counseling button",
-      "Classroom location & timing details",
-    ],
-    image: brightAcademyImg,
-    isDemo: true,
-    whatsappDemoMessage:
-      "Hi! I reviewed the Bright Academy demo. I run an educational/coaching institute and want a website.",
+      "I saw the Urban Bites restaurant demo on your website. Can you show me how a website like this would work for my restaurant?",
   },
   {
     id: "royal-sweets",
     name: "Royal Sweets",
-    category: "Traditional Sweet Shop & Confectionery",
-    categorySlug: "retail",
+    category: "Traditional Sweet Shop & Bakery",
+    categorySlug: "bakery",
     shortDesc:
-      "Festive confectionery website showcasing traditional mithai assortments, seasonal gift boxes, and bulk corporate order inquiries.",
+      "Heritage Indian confectionery showcase with 100% pure desi ghee mithai, festival gift hampers, and wedding bulk orders.",
     fullDesc:
       "Created for heritage sweet shops and dry fruit stores. Helps capture high-value festive gifting orders and wedding bulk orders through a curated digital menu and direct WhatsApp inquiries.",
     features: [
@@ -401,10 +318,30 @@ export const portfolioProjects: PortfolioProject[] = [
       "Bulk order calculation guidance",
       "Hygiene standards & physical store address",
     ],
-    image: royalSweetsImg,
+    image: royalSweetsHeroImg,
     isDemo: true,
     whatsappDemoMessage:
-      "Hi! I saw the Royal Sweets demo. I want to build a digital catalog website for my sweet shop/store.",
+      "I saw the Royal Sweets demo on your website. I want to build a digital catalog website for my sweet shop/store.",
+  },
+  {
+    id: "velora-studio",
+    name: "Velora Studio",
+    category: "Salon & Beauty Studio",
+    categorySlug: "salon",
+    shortDesc:
+      "Minimalist luxury salon & spa with interactive treatment rate cards, aesthetic rituals, and direct WhatsApp appointment booking.",
+    fullDesc:
+      "Engineered for salons, spas, and beauty parlours looking to reduce no-shows. Clean service price list and instant appointment slot requests sent directly to the reception phone.",
+    features: [
+      "Hair, skin, and spa service price menu",
+      "Bridal & festive styling packages",
+      "Stylist portfolio gallery",
+      "Direct WhatsApp appointment request",
+    ],
+    image: veloraStudioHeroImg,
+    isDemo: true,
+    whatsappDemoMessage:
+      "I saw the Velora Studio salon demo on your website. I would like to discuss a website for my salon/spa.",
   },
 ];
 
@@ -458,7 +395,7 @@ export const processSteps: ProcessStep[] = [
     title: "Tell Us About Your Business",
     duration: "Day 1",
     description:
-      "We have a quick conversation over WhatsApp or in person. You share your menu, photos, timings, and business details with us.",
+      "We have a quick conversation over WhatsApp or phone call. You share your menu, photos, timings, and business details with us.",
     details: [
       "Share your menu or service list",
       "Provide your contact and address details",
@@ -539,7 +476,7 @@ export const pricingPlans: PricingPlan[] = [
     ],
     ctaText: "Choose Starter",
     whatsappInquiryText:
-      "Hi, I am interested in the STARTER website package (₹4,999). Can we discuss details for my business?",
+      "I am interested in the STARTER website package (₹4,999). Can we discuss details for my business?",
   },
   {
     id: "business",
@@ -562,7 +499,7 @@ export const pricingPlans: PricingPlan[] = [
     ],
     ctaText: "Choose Business",
     whatsappInquiryText:
-      "Hi, I am interested in the BUSINESS website package (₹9,999). Can we discuss details for my business?",
+      "I am interested in the BUSINESS website package (₹9,999). Can we discuss details for my business?",
   },
   {
     id: "premium",
@@ -584,7 +521,7 @@ export const pricingPlans: PricingPlan[] = [
     ],
     ctaText: "Choose Premium",
     whatsappInquiryText:
-      "Hi, I am interested in the PREMIUM website package (₹18,999). Can we discuss details for my business?",
+      "I am interested in the PREMIUM website package (₹18,999). Can we discuss details for my business?",
   },
 ];
 
@@ -666,19 +603,158 @@ export const orderingFlowSteps = [
 ];
 
 // ------------------------------------------------------------------------------
-// HELPER UTILITIES FOR WHATSAPP URL GENERATION
+// HELPER UTILITIES FOR WHATSAPP URL GENERATION & DRAFT SANITIZATION
 // ------------------------------------------------------------------------------
+
+/**
+ * Cleans and formats WhatsApp inquiry drafts so that:
+ * 1. "Hi!" is ALWAYS the starting word (or "Hi MakeWebs," if explicitly addressed).
+ * 2. "Hi" or "Hello" NEVER repeats anywhere after the initial word.
+ * 3. If multiple service inquiries are detected (e.g. from multiple clicks or combined selection):
+ *    Instead of repeating "I am interested in your service: ... Could you share more details and pricing?",
+ *    it collapses them into:
+ *    "Hi! I am interested in your services: Service 1, Service 2. Could you share more details and pricing?"
+ */
+export function cleanAndFormatWhatsAppMessage(rawMessage: string): string {
+  if (!rawMessage) {
+    return 'Hi! I am interested in getting a website for my business. I would like to see a demo.';
+  }
+
+  // 1. Separate run-together punctuation and words (e.g. "...pricing?Hi" -> "...pricing? Hi")
+  let text = rawMessage.replace(/([.?!])([A-Za-z])/g, '$1 $2');
+
+  // Multi-item Cart Checkout or Structured Bulleted Order Lists
+  if (text.includes('•') || text.includes('*Total Amount:*') || text.includes('*Estimated Total:*') || text.includes('*Sample Order Details:*')) {
+    let cleanText = text.trim();
+    if (!cleanText.startsWith('Hi!') && !cleanText.startsWith('Hi,') && !cleanText.startsWith('Hi ')) {
+      cleanText = `Hi! ${cleanText}`;
+    }
+    const lines = cleanText.split('\n');
+    const processedLines = lines.map((line, idx) => {
+      if (idx === 0) return line;
+      return line.replace(/^Hi[!,\s]+/i, '').trimEnd();
+    });
+    return processedLines.join('\n');
+  }
+
+  // Combination Rule 1: Ordering demo + direct ordering build combination
+  if (
+    (text.includes('build a direct WhatsApp ordering website') || text.includes('ordering demo')) &&
+    (text.includes('place an order') || text.includes('want to set this up') || text.includes('tested your WhatsApp ordering demo'))
+  ) {
+    return 'Hi! I tested your WhatsApp ordering demo and would like to build a direct WhatsApp ordering website for my restaurant/store.';
+  }
+
+  // Combination Rule 2: Custom demo inquiry combined with "a few questions"
+  if (
+    text.includes('custom website demo') &&
+    (text.includes('few questions') || text.includes('Can we talk') || text.includes('talk?'))
+  ) {
+    return 'Hi! I would like to see a custom website demo designed for my business, and I have a few questions. Can we talk?';
+  }
+
+  // Combination Rule 3: Step 1 inquiry
+  if (text.includes('start Step 1')) {
+    return 'Hi! I would like to start Step 1 and discuss a website for my business.';
+  }
+
+  // Combination Rule 4: Service inquiries (single, multiple, or combined with package recommendation)
+  const hasNotSurePackage =
+    text.toLowerCase().includes('not sure which website package') ||
+    text.toLowerCase().includes('package or services') ||
+    text.toLowerCase().includes('recommendation');
+
+  const serviceRegex = /interested in your service(?:s)?:?\s*([^.?!]+?)(?:\.\s*Could you share more details and pricing\??|$)/gi;
+  const matchedServices: string[] = [];
+  let match: RegExpExecArray | null;
+
+  while ((match = serviceRegex.exec(text)) !== null) {
+    if (match[1]) {
+      const parts = match[1].split(',').map((p) => p.trim()).filter(Boolean);
+      for (const p of parts) {
+        if (!matchedServices.includes(p) && !p.toLowerCase().includes('not sure')) {
+          matchedServices.push(p);
+        }
+      }
+    }
+  }
+
+  if (matchedServices.length > 0) {
+    const serviceList = matchedServices.length === 1 ? matchedServices[0] : matchedServices.join(', ');
+    const serviceNoun = matchedServices.length === 1 ? 'service' : 'services';
+
+    if (hasNotSurePackage) {
+      return `Hi! I am interested in your ${serviceNoun}: ${serviceList}. Could you share more details, pricing, and a package recommendation for my business?`;
+    }
+    return `Hi! I am interested in your ${serviceNoun}: ${serviceList}. Could you share more details and pricing?`;
+  }
+
+  // Combination Rule 5: Fallback: ensure exactly one "Hi!" at start, remove all secondary "Hi"
+  const leadingGreetingMatch = text.match(/^(Hi(?:\s+MakeWebs)?[!,.]?|Hello[!,.]?|Hey[!,.]?)\s*/i);
+  let leadingGreeting = 'Hi! ';
+  if (leadingGreetingMatch) {
+    leadingGreeting = leadingGreetingMatch[0].trim() + ' ';
+    text = text.slice(leadingGreetingMatch[0].length);
+  }
+
+  // Strip ANY subsequent occurrence of "Hi", "Hi!", "Hi MakeWebs,", "Hello", "Hey" in the entire remaining text
+  text = text.replace(/(?:^|\s+)(?:Hi(?:\s+MakeWebs)?[!,.]?|Hello[!,.]?|Hey[!,.]?)\s+/gi, ' ');
+
+  // Normalize inline spaces while preserving newlines
+  text = text
+    .split('\n')
+    .map((line) => line.replace(/[^\S\r\n]+/g, ' ').trim())
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+
+  // Deduplicate identical sentences (if a user clicked the same button twice)
+  const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
+  const uniqueSentences: string[] = [];
+  for (const s of sentences) {
+    const trimmed = s.trim();
+    if (uniqueSentences.length === 0 || uniqueSentences[uniqueSentences.length - 1].toLowerCase() !== trimmed.toLowerCase()) {
+      uniqueSentences.push(trimmed);
+    }
+  }
+  text = uniqueSentences.join(' ');
+
+  if (text.length > 0) {
+    text = text.charAt(0).toUpperCase() + text.slice(1);
+    return `${leadingGreeting.trim()} ${text}`.trim();
+  }
+
+  return leadingGreeting.trim();
+}
+
+/**
+ * Builds a multi-service inquiry message ensuring "Hi!" only appears ONCE at the start.
+ * Example:
+ * "Hi! I am interested in your services: Business Websites, Google Maps & Location Integration. Could you share more details and pricing?"
+ */
+export function getServicesInquiryMessage(services: string[]): string {
+  if (!services || services.length === 0) {
+    return agencyInfo.defaultWhatsAppMessage;
+  }
+  const uniqueServices = Array.from(new Set(services));
+  if (uniqueServices.length === 1) {
+    return `Hi! I am interested in your service: ${uniqueServices[0]}. Could you share more details and pricing?`;
+  }
+  return `Hi! I am interested in your services: ${uniqueServices.join(', ')}. Could you share more details and pricing?`;
+}
+
 export function getWhatsAppUrl(customMessage?: string): string {
   let cleanPhone = agencyInfo.whatsappNumber.replace(/[^0-9]/g, '');
   if (cleanPhone.length === 10) {
     cleanPhone = `91${cleanPhone}`;
   }
-  const message = customMessage || agencyInfo.defaultWhatsAppMessage;
+  const raw = customMessage || agencyInfo.defaultWhatsAppMessage;
+  const message = cleanAndFormatWhatsAppMessage(raw);
   return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`;
 }
 
 export function getProjectDemoWhatsAppUrl(projectName: string, category: string): string {
-  const msg = `Hi! I saw the ${projectName} (${category}) demo on your website. I would like to see how a similar website would look for my business.`;
+  const msg = `Hi! I saw the ${projectName} (${category}) demo on your website. Can you show me how a similar website would look for my business?`;
   return getWhatsAppUrl(msg);
 }
 
